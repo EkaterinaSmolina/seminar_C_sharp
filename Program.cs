@@ -19,16 +19,31 @@
 //44 5 78 -> 78
 //22 3 9 -> 22
 
-Console.WriteLine("input a: ");
-int a = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("input b: ");
-int b = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("input c: ");
-int c = Convert.ToInt32(Console.ReadLine());
+//Console.WriteLine("input a: ");
+//int a = Convert.ToInt32(Console.ReadLine());
+//Console.WriteLine("input b: ");
+//int b = Convert.ToInt32(Console.ReadLine());
+//Console.WriteLine("input c: ");
+//int c = Convert.ToInt32(Console.ReadLine());
 
- if (a > b && a > c)
- Console.WriteLine("a=" + a + "; b=" + b + "; с= "+ c + "->" + "max= " + a); 
-        else if (b > c)
-        Console.WriteLine("a=" + a + "; b=" + b + "; с= "+ c + "->" + "max= " + b); 
-                else
-                    Console.WriteLine("a=" + a + "; b=" + b + "; с= "+ c + "->" + "max= "+ c);
+// if (a > b && a > c)
+// Console.WriteLine("a=" + a + "; b=" + b + "; с= "+ c + "->" + "max= " + a); 
+//        else if (b > c)
+//        Console.WriteLine("a=" + a + "; b=" + b + "; с= "+ c + "->" + "max= " + b); 
+//                else
+//                    Console.WriteLine("a=" + a + "; b=" + b + "; с= "+ c + "->" + "max= "+ c);
+
+
+
+//Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
+//4 -> да
+//-3 -> нет
+//7 -> нет
+
+
+Console.WriteLine("input number: ");
+int a = Convert.ToInt32(Console.ReadLine());
+if (a%2==0)
+    Console.WriteLine("a=" + a + "->да" );
+    else 
+    Console.WriteLine("a=" + a + "->нет" );
