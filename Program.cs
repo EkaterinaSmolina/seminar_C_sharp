@@ -60,9 +60,17 @@
 Console.WriteLine("input N: ");
 int N = Convert.ToInt32(Console.ReadLine());
 int index=0;
-for (index = 0; index>=N; index++)
-    if (index%2==0)
-        Console.WriteLine(index);
+int count=0;
+while (index <= N) do
+        if (index%2==0);
+            count=count+1;
+            index=index+1; 
+            Console.WriteLine(N + "->" + count);
+         
+          
+// не получилось данное задание, не хватает знаний..    
+       
+
         
     
           
