@@ -41,9 +41,31 @@
 //7 -> нет
 
 
-Console.WriteLine("input number: ");
-int a = Convert.ToInt32(Console.ReadLine());
-if (a%2==0)
-    Console.WriteLine("a=" + a + "->да" );
-    else 
-    Console.WriteLine("a=" + a + "->нет" );
+//Console.WriteLine("input number: ");
+//int a = Convert.ToInt32(Console.ReadLine());
+//if (a%2==0)
+//    Console.WriteLine("a=" + a + "->да" );
+//    else 
+//    Console.WriteLine("a=" + a + "->нет" );
+
+
+//Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+
+//5 -> 2, 4
+//8 -> 2, 4, 6, 8
+
+
+
+
+Console.WriteLine("input N: ");
+int N = Convert.ToInt32(Console.ReadLine());
+int index=0;
+for (index = 0; index>=N; index++)
+    if (index%2==0)
+        Console.WriteLine(index);
+        
+    
+          
+
+
+
